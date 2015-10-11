@@ -1,7 +1,14 @@
 ---
 layout: default
 date:   2014-04-06 23:26:12
-photo: 5.png
+photo: cheesepuffs.jpg
 caption_header: Sample header
 caption: sample caption
 ---
+Ingredients
+1/2 cup water
+3 tablespoons butter, cut into small pieces
+1/2 teaspoon salt
+1/2 cup flour
+2 eggs
+3 ounces Gruyère cheese, grated (about 3/4 cup)

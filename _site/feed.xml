@@ -4,74 +4,36 @@
     <title>A Pinch of Salt</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Oct 2015 16:15:12 -0400</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2015 16:15:12 -0400</lastBuildDate>
+    <link>http://abosarge.github.io/recipes///</link>
+    <atom:link href="http://abosarge.github.io/recipes///feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 11 Oct 2015 17:06:28 -0400</pubDate>
+    <lastBuildDate>Sun, 11 Oct 2015 17:06:28 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Two</title>
-        <description>
-</description>
-        <pubDate>Sun, 06 Apr 2014 19:26:12 -0400</pubDate>
-        <link>http://yourdomain.com/2014/04/06/two.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/04/06/two.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Three</title>
-        <description>
-</description>
-        <pubDate>Sun, 06 Apr 2014 19:26:12 -0400</pubDate>
-        <link>http://yourdomain.com/2014/04/06/three.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/04/06/three.html</guid>
-        
-        
-      </item>
     
       <item>
         <title>Six</title>
         <description>
 </description>
         <pubDate>Sun, 06 Apr 2014 19:26:12 -0400</pubDate>
-        <link>http://yourdomain.com/2014/04/06/six.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/04/06/six.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>One</title>
-        <description>
-</description>
-        <pubDate>Sun, 06 Apr 2014 19:26:12 -0400</pubDate>
-        <link>http://yourdomain.com/2014/04/06/one.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/04/06/one.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Four</title>
-        <description>
-</description>
-        <pubDate>Sun, 06 Apr 2014 19:26:12 -0400</pubDate>
-        <link>http://yourdomain.com/2014/04/06/four.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/04/06/four.html</guid>
+        <link>http://abosarge.github.io/recipes///2014/04/06/six.html</link>
+        <guid isPermaLink="true">http://abosarge.github.io/recipes///2014/04/06/six.html</guid>
         
         
       </item>
     
       <item>
         <title>Five</title>
-        <description>
+        <description>&lt;p&gt;Ingredients
+1/2 cup water
+3 tablespoons butter, cut into small pieces
+1/2 teaspoon salt
+1/2 cup flour
+2 eggs
+3 ounces Gruyère cheese, grated (about 3/4 cup)&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Apr 2014 19:26:12 -0400</pubDate>
-        <link>http://yourdomain.com/2014/04/06/five.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/04/06/five.html</guid>
+        <link>http://abosarge.github.io/recipes///2014/04/06/five.html</link>
+        <guid isPermaLink="true">http://abosarge.github.io/recipes///2014/04/06/five.html</guid>
         
         
       </item>
