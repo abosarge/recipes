@@ -12,3 +12,15 @@ github_username:  abosarge
 
 # Build settings
 markdown: kramdown
+
+
+collections:
+  appetizers:
+    output: true
+    permalink: /appetizers/:path/
+  dinner:
+    output: true
+    permalink: /dinner/:path/
+  desserts:
+      output: true
+      permalink: /desserts/:path/
