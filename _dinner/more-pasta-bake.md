@@ -3,16 +3,15 @@ title: “More” Pasta Bake
 author: Amy
 ---
 
-Ingredients
+###Ingredients
+* 3 oz Rotini pasta (other types work too)
+* 1 lb ground beef
+* 1 can tomato soup (I like Amy’s brand)
+* 1 medium onion, chopped
+* 8 oz shredded cheese, any kind 
 
-3 oz Rotini pasta (other types work too)
-1 lb ground beef
-1 can tomato soup (I like Amy’s brand)
-1 medium onion, chopped
-8 oz shredded cheese, any kind
 
-Method
-
+###Method
 Got everything? Good. Let’s get cookin’, guh.
 
 Preheat your oven to 350 degrees. Oil a casserole dish.
