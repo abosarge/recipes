@@ -3,4 +3,10 @@ layout: page
 title: Appetizers
 ---
 
-<p>Appetizers</p>
+{% for recipe in site.appetizers limit: 10 %}
+      <li>
+        <img src="{{ img.thumbnail-path }}" alt="{{ recipe.title }}"/>
+        <a href="{{ recipe.url }}">{{ recipe.title }}</a>
+        <p>{{ recipe.description }}</p>
+      </li>
+{% endfor %}
