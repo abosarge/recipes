@@ -3,10 +3,10 @@ layout: page
 title: Appetizers
 ---
 
-{% for recipe in site.appetizers limit: 10 %}
+{% for album in site.appetizers limit:10 %}
       <li>
-        <img src="{{ img.thumbnail-path }}" alt="{{ recipe.title }}"/>
-        <a href="{{ recipe.url }}">{{ recipe.title }}</a>
-        <p>{{ recipe.description }}</p>
+        <img src="{{ album.thumbnail-path }}" alt="{{ album.title }}"/>
+        <a href="{{ album.url }}">{{ album.title }}</a>
+        <p>{{ album.short-description }}</p>
       </li>
 {% endfor %}
