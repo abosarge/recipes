@@ -67,6 +67,8 @@
 }
 
 /* Slideshow style */
+/* Commenting out the slideshow style for testing */
+/*
 .slideshow {
 	position: fixed;
 	background: rgba(0,0,0,0.6);
@@ -161,8 +163,11 @@
 	font-weight: 300;
 	font-size: 200%;
 }
+*/
 
 /* Navigation */
+/* Commenting out the slideshow navigation style for testing */
+/*
 .slideshow nav span {
 	position: fixed;
 	z-index: 1000;
@@ -215,8 +220,11 @@ span.nav-next:before  {
 span.nav-close:before {
 	content: "\e602";
 }
+*/
 
 /* Info on arrow key navigation */
+/* Commenting out the slideshow arrow key for testing */
+/*
 .info-keys {
 	position: fixed;
 	top: 10px;
@@ -251,6 +259,7 @@ span.nav-close:before {
 	right: 10px;
 	content: "\e604";
 }
+*/
 
 /* Example media queries (reduce number of columns and change slideshow layout) */
 
@@ -260,6 +269,7 @@ span.nav-close:before {
 		width: 33.3%;
 	}
 
+	/* Commenting out all slideshow stuff for testing
 	.slideshow li {
 		width: 100%;
 		height: 100%;
@@ -283,6 +293,7 @@ span.nav-close:before {
 	.info-keys {
 		display: none;
 	}
+	*/
 
 }
 
