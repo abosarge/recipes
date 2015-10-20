@@ -1,7 +1,10 @@
 .site-nav{
-  color: #696969;
+  color: #87CEEB;
   display: flex;
   flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .flex-nav{
@@ -23,7 +26,7 @@ a:hover {
   text-decoration: none;
 }
 
-a.menu-icon {
+a.icon {
   width: 75px;
   height: 75px;
 }
