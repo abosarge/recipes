@@ -474,17 +474,20 @@ pre {
   .highlight .il {
     color: #099; }
 
-.site-nav {
+.recipeNav {
   color: #87CEEB;
   display: flex;
   flex-direction: row;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
-  font-style: italic; }
+  font-style: italic;
+  justify-content: space-between;
+  width: 50%; }
 
-.flex-nav {
+.cooknav {
   flex: 1;
-  height: 3em; }
+  height: 3em;
+  width: 100%; }
 
 svg {
   height: 1em;

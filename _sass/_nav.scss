@@ -1,15 +1,18 @@
-.site-nav{
+.recipeNav{
   color: #87CEEB;
   display: flex;
   flex-direction: row;
-  font-family: 'Roboto', sans-serif;
+  font-family: $base-font-family;
   font-weight: 900;
   font-style: italic;
+  justify-content: space-between;
+  width: 50%;
 }
 
-.flex-nav{
+.cooknav{
   flex: 1;
   height: 3em;
+  width: 100%;
 }
 
 svg {

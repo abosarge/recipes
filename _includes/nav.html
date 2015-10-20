@@ -1,36 +1,24 @@
-<!-- Commented out for testing -->
-<!--
-<div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-    </button>
-</div>
--->
-
 <nav id="nav" class="recipeNav">
-    <ul class="nav navbar-nav">
+  <span {% if page.url contains "/appetizers" %} class="active cooknav" {% endif %}>
+    <a href="{{ site.baseurl }}../appetizers/appetizers.html">Appetizers</a>
+  </span>
 
-            <li {% if page.url contains "/appetizers" %} class="active" {% endif %}>
-                <a href="{{ site.baseurl }}/appetizers/appetizers.html">Appetizers</a>
-            </li>
+  <span {% if page.url contains "/dinner" %} class="active cooknav" {% endif %}>
+    <a href="{{ site.baseurl }}../dinner/dinner.html">Dinner</a>
+  </span>
 
-            <li {% if page.url contains "/dinner" %} class="active" {% endif %}>
-                <a href="{{ site.baseurl }}/dinner/dinner.html">Dinner</a>
-            </li>
+  <span {% if page.url contains "/desserts" %} class="active cooknav" {% endif %}>
+    <a href="{{ site.baseurl }}../desserts/desserts.html">Desserts</a>
+  </span>
 
-            <li {% if page.url contains "/desserts" %} class="active" {% endif %}>
-                <a href="{{ site.baseurl }}/desserts/desserts.html">Desserts</a>
-            </li>
+  <span {% if page.url contains "/submit" %} class="active cooknav" {% endif %}>
+    <a href="{{ site.baseurl }}../submit/submit.html">Submit</a>
+  </span>
 
-            <li {% if page.url contains "/submit" %} class="active" {% endif %}>
-                <a href="{{ site.baseurl }}/submit/submit.html">Submit</a>
-            </li>
-            </ul>
+<!-- Not sure why this is here
         </div>
         <!-- /.navbar-collapse -->
+<!-- Still not sure why this is here
     </div>
     <!-- /.container-fluid -->
 </nav>
