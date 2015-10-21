@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:900italic,300);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,900,900italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,400italic);
 /**
  * Reset some basic elements
  */
@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   line-height: 1.5em;
   font-weight: 300;
@@ -67,10 +67,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #87CEEB;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #45b3e0; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -167,24 +167,30 @@ pre {
   border: 1px solid white;
   z-index: 1; }
 
+.site-header {
+  text-align: center; }
+
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 4em;
+  width: 90%;
   position: relative; }
 
 .site-title {
-  color: #2a7ae2;
-  font-family: "Roboto", sans-serif;
-  font-size: 2em;
-  line-height: 2em;
-  margin-bottom: 0;
-  float: left; }
+  color: #87CEEB;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2.5em;
+  line-height: 2.5em;
+  margin: 0 auto; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #87CEEB; }
 
 .site-nav {
   float: right;
@@ -202,20 +208,22 @@ pre {
       top: 9px;
       right: 30px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
+      /* Not sure I want this
+      border: 1px solid $grey-color-light;
       border-radius: 5px;
+      */
       text-align: right; }
       .site-nav .menu-icon {
         display: block;
         float: right;
-        width: 36px;
-        height: 26px;
+        width: 2em;
+        height: 2em;
         line-height: 0;
         padding-top: 10px;
         text-align: center; }
         .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
+          width: 1.5em;
+          height: 1.5em; }
           .site-nav .menu-icon > svg path {
             fill: #424242; }
       .site-nav .trigger {
@@ -478,10 +486,12 @@ pre {
   color: #87CEEB;
   display: flex;
   flex-direction: row;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  margin: .5em auto;
   justify-content: space-between;
+  text-transform: uppercase;
   width: 50%; }
 
 .cooknav {
