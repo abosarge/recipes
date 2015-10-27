@@ -3,14 +3,64 @@ layout: page
 title: Submit
 ---
 
-<p>Submit</p>
+<div class="submitinfo">
+  <h4>Submit your recipe!</h4>
+  <p>We love to share and we're excited to try new recipes. We look forward to hearing from you.</p>
+</div>
 
 <form accept-charset="UTF-8" action="https://formkeep.com/f/e3a707a3bd27" method="POST">
     <input type="hidden" name="utf8" value="✓">
-    <input type="name" name="name" placeholder="Jane Doe">
-    <input type="email" name="email" placeholder="email@host.com">
-    <input type="text" name="Ingredients" placeholder="Tell us what it's made of!">
-    <input type="text" name="Method" placeholder="Tell us how it's made!">
-    <input type="file" name="picture" accept="image/*">
-  <button type="submit">Submit</button>
+
+  <div class="formflex">
+    <label class="flexchild">Name</label>
+    <input type="name" name="name" placeholder="Jane Doe" class="flexchild">
+  </div>
+
+  <div class="formflex">
+    <label class="flexchild">Email</label>
+    <input type="email" name="email" placeholder="email@host.com" class="flexchild">
+  </div>
+
+  <div class="formflex">
+    <label class="flexchild">Ingredients</label>
+    <textarea type="text" name="Ingredients" class="flexchild">
+    </textarea>
+  </div>
+
+  <div class="formflex">
+    <label class="flexchild">Method</label>
+    <textarea type="text" name="Method" class="flexchild">
+    </textarea>
+  </div>
+
+<!-- adding prep time, cook time, number of servings
+  <div class="formflex">
+    <label class="flexchild">Prep Time</label>
+-->
+
+  <div class="formflex">
+    <label class="flexchild_smaller">Prep Time</label>
+    <textarea type="text" name="Prep Time" class="flexchild_smaller">
+    </textarea>
+
+
+    <label class="flexchild_smaller">Cook Time</label>
+    <textarea type="text" name="Cook Time" class="flexchild_smaller">
+    </textarea>
+
+
+    <label class="flexchild_smaller">Servings</label>
+    <textarea type="text" name="Servings" class="flexchild_smaller">
+    </textarea>
+  </div>
+
+  <div class="formflex">
+    <label class="flexchild">Photo</label>
+    <input type="file" name="picture" accept="image/*" class="flexchild">
+  </div>
+
+  <div class="formflex">
+    <button type="submit" class="flexchild">Submit</button>
+  </div>
+
 </form>

@@ -1,0 +1,81 @@
+.submitinfo {
+  border-top: 3px solid $brand-color;
+  border-bottom: 3px solid $brand-color;
+  color: $grey-color;
+  float: left;
+  padding: 1em;
+  width: 20%;
+}
+
+h4 {
+  font-weight: 800;
+  line-height: 1em;
+}
+
+form {
+  font-family: $base-font-family;
+  float: right;
+  width: 75%;
+}
+
+label {
+  font-weight: 800;
+}
+
+input {
+  border: 1px solid $grey-color-light;
+  font-size: 1em;
+  line-height: 1.25em;
+  margin-bottom: 3em;
+  padding: .25em;
+  text-align: left;
+  width: 87%;
+}
+
+textarea {
+  width: 87%;
+  margin-bottom: 3em;
+  border: 1px solid $grey-color-light;
+overflow: auto;
+outline: none;
+
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+.formflex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.formflex .flexchild:nth-child(odd) {
+  width: 13%;
+}
+
+.formflex:nth-child(4) {
+  height: 10em;
+}
+
+.formflex:nth-child(5) {
+  height: 10em;
+}
+
+.formflex .flexchild_smaller:nth-child(1) {
+  width: 13%;
+}
+
+.formflex .flexchild_smaller:nth-child(3) {
+  width: 13%;
+}
+
+.formflex .flexchild_smaller:nth-child(5) {
+  width: 10%;
+}
+
+.formflex .flexchild_smaller:nth-child(even) {
+  height: 2em;
+  margin-right: 1em;
+  width: 20%;
+}
